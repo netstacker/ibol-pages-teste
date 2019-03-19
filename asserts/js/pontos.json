@@ -1,0 +1,39 @@
+[
+	{
+		"Id": 1,
+        "Latitude": -22.9418809,
+        "Longitude": -43.1826235,
+		"Descricao": "IBOL Botafogo"
+    },
+    {
+		"Id": 2,
+        "Latitude": -22.941877,
+        "Longitude": -43.2154542,
+		"Descricao": "IBOL Copacabana"
+    },
+    {
+		"Id": 3,
+        "Latitude": -22.8381164,
+        "Longitude": -43.3129025,
+		"Descricao": "IBOL Vila da Penha"
+    },
+  	{
+		"Id": 4,
+    	"Latitude": -23.005611,
+    	"Longitude": -43.3163187,
+		"Descricao": "IBOL Barra"
+  	},
+  	{
+		"Id": 6,
+    	"Latitude": -22.883852,
+    	"Longitude": -43.2816257,
+		"Descricao": "IBOL Cachambi"
+  	},
+  	{
+		"Id": 7,
+    	"Latitude": -22.8699839,
+    	"Longitude": -43.3446106,
+		"Descricao": "IBOL Madureira"
+  	}
+  	
+]
