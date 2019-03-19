@@ -1,19 +1,38 @@
-<?php
-get_header( 'medicos' ); ?>
-
+<!DOCTYPE html> 
+<html lang="en" wp-site wp-site-is-master-page wp-site-master-page="IBOL" wp-site-theme-name="IBOL_TEMA" wp-site-theme-slug="iboltema" wp-site-themes-folder="C:\xampp\htdocs\wp-content\themes\ibol" wp-site-preview-url="http://localhost/"> 
+    <head> 
+        <title>Title</title>         
+        <!-- Required meta tags -->         
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/> 
+        <!--Fontes-->         
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet"> 
+        <!-- Bootstrap CSS -->         
+        <link rel="stylesheet" href="asserts/css/font-awesome.min.css"/> 
+        <link rel="stylesheet" href="asserts/css/owl.carousel.css"/> 
+        <link rel="stylesheet" href="asserts/css/owl.theme.default.css"/> 
+        <link rel="stylesheet" href="asserts/css/animate.css"/> 
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="components/pg.chocka-blocks/css/cb-style.css"> 
+        <link rel="stylesheet" href="asserts/css/home.css"/> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400"> 
+        <link rel="stylesheet" type="text/css" href="asserts/css/estilo.css"> 
+    </head>     
+    <body> 
         <header class="container">
             <ul class="nav nav-tabs" role="tablist"> 
                 <li class="nav-item"> 
-                    <a class="nav-link active" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true"><?php _e( 'Home', 'iboltema' ); ?></a> 
+                    <a class="nav-link active" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Home</a> 
                 </li>                 
                 <li class="nav-item"> 
-                    <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true"><?php _e( 'Profile', 'iboltema' ); ?></a> 
+                    <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Profile</a> 
                 </li>                 
                 <li class="nav-item"> 
-                    <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true"><?php _e( 'Messages', 'iboltema' ); ?></a> 
+                    <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Messages</a> 
                 </li>                 
                 <li class="nav-item"> 
-                    <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true"><?php _e( 'Settings', 'iboltema' ); ?></a> 
+                    <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Settings</a> 
                 </li>                 
             </ul>             
             <section id="cb-navigation-1-4" class="cb-navigation-block cb-navigation-1-4">
@@ -30,7 +49,7 @@ get_header( 'medicos' ); ?>
                                     </li>
                                     <li>
                                         <div class="top">
-                                            <span><?php _e( 'Central de Marcações', 'iboltema' ); ?><i class="fa fa-phone"></i><?php _e( '(21) 3237-9220', 'iboltema' ); ?></span>
+                                            <span>Central de Marcações<i class="fa fa-phone"></i>(21) 3237-9220</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -38,20 +57,20 @@ get_header( 'medicos' ); ?>
                             <div class="col-sm-4 col-xs-12" style="margin-top:5px;">
                                 <div>
                                     <div class="float-right">
-                                        <span><i class="fa fa-globe"></i> <?php _e( 'Unidades:', 'iboltema' ); ?> </span>
-                                        <a class="dropdown-toggle" href="#" id="navbarDropdowncaret" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'Botafogo', 'iboltema' ); ?> </a>
+                                        <span><i class="fa fa-globe"></i> Unidades: </span>
+                                        <a class="dropdown-toggle" href="#" id="navbarDropdowncaret" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Botafogo </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdowncaret">
                                             <li>
-                                                <a href="#"><?php _e( 'Barra', 'iboltema' ); ?></a>
+                                                <a href="#">Barra</a>
                                             </li>
                                             <li>
-                                                <a href="#"><?php _e( 'Serbian', 'iboltema' ); ?></a>
+                                                <a href="#">Serbian</a>
                                             </li>
                                             <li>
-                                                <a href="#"><?php _e( 'Spanish', 'iboltema' ); ?></a>
+                                                <a href="#">Spanish</a>
                                             </li>
                                             <li>
-                                                <a href="#"><?php _e( 'Greek', 'iboltema' ); ?></a>
+                                                <a href="#">Greek</a>
                                             </li>
                                         </div>
                                     </div>
@@ -76,10 +95,11 @@ get_header( 'medicos' ); ?>
                                                 <img width="20" src="https://www.saolucascopacabana.com.br/wp-content/themes/saolucascopacabana/images/headset-icon.png">
                                             </li>
                                             <li>
-                                                <p><?php _e( 'CENTRAL DE MARCAÇOES', 'iboltema' ); ?></p>
+                                                <p>CENTRAL DE MARCAÇOES</p>
                                                 <div class="info">
-                                                    <?php _e( 'Telefone:', 'iboltema' ); ?>
-                                                    <span style="font-family: 'Raleway', sans-serif; font-weight: 500;"><?php _e( '(21)', 'iboltema' ); ?> <?php _e( '3237-9200', 'iboltema' ); ?></span>
+                                                    Telefone:
+                                                    <span style="font-family: 'Raleway', sans-serif; font-weight: 500;">(21)
+                                                        3237-9200</span>
                                                     <!--· Fax:
                                                         <span style="font-family: 'Raleway', sans-serif; font-weight: 500;">(21) 2545-4001</span>-->
                                                 </div>
@@ -90,7 +110,7 @@ get_header( 'medicos' ); ?>
                                                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                                                     </li>
                                                     <li>
-                                                        <p><?php _e( 'RESULTADO DE EXAMES', 'iboltema' ); ?></p>
+                                                        <p>RESULTADO DE EXAMES</p>
                                                         <div class="info">
 </div>
                                                     </li>
@@ -108,42 +128,42 @@ get_header( 'medicos' ); ?>
                                 <div class="collapse navbar-collapse menuibol" id="bs-example-navbar-collapse-4">
                                     <ul class="navbar-nav ml-auto d-flex justify-content-center align-items-center">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./index.html"><?php _e( 'HOME', 'iboltema' ); ?></a>
+                                            <a class="nav-link" href="./index.html">HOME</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./unidades.html"><?php _e( 'UNIDADES', 'iboltema' ); ?></a>
+                                            <a class="nav-link" href="./unidades.html">UNIDADES</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><?php _e( 'ESPECIALIDADES', 'iboltema' ); ?></a>
+                                            <a class="nav-link" href="#">ESPECIALIDADES</a>
                                         </li>
                                         <li class="dropdown nav-item">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><span class="caret"></span><?php _e( 'QUEM SOMOS', 'iboltema' ); ?></a>
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><span class="caret"></span>QUEM SOMOS</a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="dropdown-item" href="#"><?php _e( 'Blog', 'iboltema' ); ?></a>
+                                                    <a class="dropdown-item" href="#">Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#"><?php _e( 'Portfolio', 'iboltema' ); ?></a>
+                                                    <a class="dropdown-item" href="#">Portfolio</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#"><?php _e( 'Team', 'iboltema' ); ?></a>
+                                                    <a class="dropdown-item" href="#">Team</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><?php _e( 'EXAMES E CONSULTAS', 'iboltema' ); ?></a>
+                                            <a class="nav-link" href="#">EXAMES E CONSULTAS</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./medicos.html"><?php _e( 'MÉDICOS', 'iboltema' ); ?></a>
+                                            <a class="nav-link" href="./medicos.html">MÉDICOS</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./convenios.html"><?php _e( 'CONVÊNIOS', 'iboltema' ); ?></a>
+                                            <a class="nav-link" href="./convenios.html">CONVÊNIOS</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><?php _e( 'NOTÍCIAS', 'iboltema' ); ?></a>
+                                            <a class="nav-link" href="#">NOTÍCIAS</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><?php _e( 'CONTATO', 'iboltema' ); ?></a>
+                                            <a class="nav-link" href="#">CONTATO</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -166,8 +186,8 @@ get_header( 'medicos' ); ?>
                                     <div class="container">
                                         <section id="team" class="pb-5">
                                             <div class="container">
-                                                <h5 class="section-title h1"><?php _e( 'NOSSA EQUIPE MÉDICA', 'iboltema' ); ?></h5>
-                                                <div class="row text-muted">
+                                                <h5 class="section-title h1">NOSSA EQUIPE MÉDICA</h5>
+                                                <div class="row">
                                                     <!-- Team member -->
                                                     <div class="col-xs-12 col-sm-6 col-md-4">
                                                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
@@ -175,11 +195,11 @@ get_header( 'medicos' ); ?>
                                                                 <div class="frontside">
                                                                     <div class="card">
                                                                         <div class="card-body text-center">
-                                                                            <p><img class="img-fluid" src="http://ibol.com.br/img/imagens_secoes/10.jpg" alt="card image"></p>
-                                                                            <h4 class="card-title"><?php _e( 'Oswaldo Moura Brasil', 'iboltema' ); ?></h4>
-                                                                            <h3><?php _e( 'Segmento:Emergência', 'iboltema' ); ?></h3>
-                                                                            <p class="card-text"><?php _e( 'CRM', 'iboltema' ); ?></p>
-                                                                            <p class="card-text"><?php _e( ':Formação:', 'iboltema' ); ?></p>
+                                                                            <p><img class=" img-fluid" src="http://ibol.com.br/img/imagens_secoes/10.jpg" alt="card image"></p>
+                                                                            <h4 class="card-title">Oswaldo Moura Brasil</h4>
+                                                                            <p class="card-text">Diretor.</p>
+                                                                            <p class="card-text">Especialidades:</p>
+                                                                            <p class="card-text">Formação:</p>
                                                                             <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                                                         </div>
                                                                     </div>
@@ -187,8 +207,8 @@ get_header( 'medicos' ); ?>
                                                                 <div class="backside">
                                                                     <div class="card">
                                                                         <div class="card-body text-center mt-4">
-                                                                            <h4 class="card-title"><?php _e( 'eMROswaldo Moura Brasil', 'iboltema' ); ?></h4>
-                                                                            <p class="card-text"><?php _e( 'O Dr. Oswaldo Moura Brasil cursou a Faculdade de Medicina da Universidade Gama Filho (1966/1971) e fez residência em Oftalmologia pelo Serviço do Prof. Luiz Eurico Ferreira da Escola Médica do Rio de Janeiro, da Universidade Gama Filho (UGF) no biênio 1972 e 1973. Conquistou o título de Especialista em Oftalmologia concedido pela Associação Médica Brasileira e Conselho Brasileiro de Oftalmologia, em 1974, e o título de Especialista em Ultra-Sonografia pela Sociedade Brasileira de Ultra-Som em Medicina e Biologia, em 1979. Concluiu o mestrado em Oftalmologia pela UFRJ, em 1992.', 'iboltema' ); ?></p>
+                                                                            <h4 class="card-title">Oswaldo Moura Brasil</h4>
+                                                                            <p class="card-text">O Dr. Oswaldo Moura Brasil cursou a Faculdade de Medicina da Universidade Gama Filho (1966/1971) e fez residência em Oftalmologia pelo Serviço do Prof. Luiz Eurico Ferreira da Escola Médica do Rio de Janeiro, da Universidade Gama Filho (UGF) no biênio 1972 e 1973. Conquistou o título de Especialista em Oftalmologia concedido pela Associação Médica Brasileira e Conselho Brasileiro de Oftalmologia, em 1974, e o título de Especialista em Ultra-Sonografia pela Sociedade Brasileira de Ultra-Som em Medicina e Biologia, em 1979. Concluiu o mestrado em Oftalmologia pela UFRJ, em 1992.</p>
                                                                             <ul class="list-inline">
                                                                                 <li class="list-inline-item">
                                                                                     <a class="social-icon text-xs-center" target="_blank" href="#"> <i class="fa fa-facebook"></i> </a>
@@ -209,6 +229,8 @@ get_header( 'medicos' ); ?>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    
+                                           
                                                 </div>
                                             </div>
                                         </section>
@@ -220,6 +242,32 @@ get_header( 'medicos' ); ?>
                 </div>
             </div>
         </main>         
-        <div class="pg-empty-placeholder"></div>        
+        <div class="pg-empty-placeholder"></div>                  
+        <script src="asserts/js/jquery.min.js"></script>         
+        <script src="asserts/js/popper.min.js"></script>         
+        <script src="asserts/js/bootstrap.min.js"></script>         
+        <script src="asserts/js/owl.carousel.js"></script>         
+        <!-- Caixa de informação -->         
+        <script src="asserts/js/infobox.js"></script>         
+        <!-- Agrupamento dos marcadores -->         
+        <script src="asserts/js/markerclusterer.js"></script>         
+        <script src="asserts/js/mapa.js"></script>         
+        <script type="text/javascript">
+      
+       
+    </script>         
+        <script type="text/javascript" src="components/pg.chocka-blocks/js/cb-main.js"></script>         
+        <script type="text/javascript" src="components/pg.chocka-blocks/js/jquery.easy-pie-chart.js"></script>         
+        <script type="text/javascript" src="components/pg.chocka-blocks/js/jquery.fitvids.js"></script>         
+        <script type="text/javascript" src="components/pg.chocka-blocks/js/jquery.mb.YTPlayer.min.js"></script>         
+        <script type="text/javascript" src="asserts/js/eskju.jquery.scrollflow.js"></script>
+        <script>
 
-<?php get_footer( 'medicos' ); ?>
+$(document).ready(function(){
+
+  new ScrollFlow();
+    
+});
+        </script>
+    </body>
+</html>

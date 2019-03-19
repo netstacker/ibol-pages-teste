@@ -223,7 +223,6 @@ convenio {
 
 .pnlserv {
     display: -webkit-inline-box;
-
     /* display: inline-flex; */
 }
 
@@ -271,9 +270,8 @@ convenio {
 }
 
 .cb-portfolio4 {
-    padding: 17px 0;
-
-    background-color: #eeeeee;
+    padding: 60px 0;
+    background-color: white;
 }
 
 .box-convenio {
@@ -323,126 +321,6 @@ section .section-title {
     text-transform: uppercase;
 }
 
-/*TESTEIRA*/
-#testairamenu .container {
-    position: relative;
-    width: 100%;
-    max-width: 960px;
- 
-}
-#testairamenu{
-    background-color: #eeeeee;
-}
- 
-
-.bkpibol {
-    z-index: 0;
-    float: right;
-    /*position: absolute;*/
-    top: 43px;
-    height: 314px;
-    width: 100%;
-}
-
-
-
-.efeitosombra {
-    text-shadow: 0 2px 12px rgba(14,35,70,.5);
-    font-size: 4rem;
-    line-height: 1.2;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-weight: 100;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    display: block;
-    margin: 0px;
-}
-
-.br {
-    color: #fff;
-}
-
-.twelve {
-    display: flex;
-}
-
-.fibrasin {
-    position: absolute;
-    z-index: 10;
-    float: left;
-    height: auto;
-    top: 299px;
-    opacity: .2;
-
-    width: 100%;
-   
-    margin-right: auto;
-    margin-left: auto;
-
-}
-
-@media (min-width: 1200px){
-.fibrasin {
-    max-width: 1140px;
-}}
-
-@media (min-width: 992px){
-.fibrasin {
-    max-width: 960px;
-}}
-
-@media (min-width: 768px){
-.fibrasin {
-    max-width: 720px;
-}
-}
-
-@media (min-width: 576px){
-.fibrasin {
-    max-width: 1108px;
-}}
-
-
-.especialidades {
-  display: block;
-    float: left;
-    padding: 24px 0;
-    width: 142px;
-    height: 94px;
-    text-align: center;
-    margin: 0 .4em .2em 0;
-    background-color: #3e627f;
-    -webkit-border-radius: 99em;
-    -moz-border-radius: 99em;
-    border-radius: 2em;
-    border: 5px solid #fff;
-    box-shadow: 0 4px 2px rgba(0,0,0,.3);
-}
-
-.especialidades h5 {
-    font-size: 14px;
-    font-weight: bold; 
-    line-height: 120%;
-    letter-spacing: -.02em;
-    
-}
-
-.texto{
-  color: white;
-  padding: 40px 0;
-}
-.especialidades a {
-  color: #fff;
-
-    
-}
-/*FIM TESTEIRA */
-
-
-
 #team .card {
     border: none;
     background: #ffffff;
@@ -465,8 +343,7 @@ section .section-title {
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
-
-
+/*
 #team .mainflip {
     -webkit-transition: 1s;
     -webkit-transform-style: preserve-3d;
@@ -478,7 +355,8 @@ section .section-title {
     transition: 1s;
     transform-style: preserve-3d;
     position: relative;
-}
+}*/
+
 #team .frontside {
     position: relative;
     -webkit-transform: rotateY(0deg);
