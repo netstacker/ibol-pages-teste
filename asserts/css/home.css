@@ -263,7 +263,11 @@ convenio {
     font-size: 11PX;
     color: #252529;
 }
-
+.card-text-espe{
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 18px;
+}
 .myoverlay {
     filter: opacity(1);
     transform: translate3d(0px, 0px, 0px) scale(1);
@@ -274,6 +278,9 @@ convenio {
     padding: 17px 0;
 
     background-color: #eeeeee;
+}
+.card-text{
+    margin-bottom: 1px !important;
 }
 
 .box-convenio {
