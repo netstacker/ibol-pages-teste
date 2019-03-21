@@ -28,10 +28,7 @@ body .info-header {
     overflow: auto;
 }
 
-body li {
-    float: left;
-    margin-right: 8px;
-}
+
 
 body .info-contato li p {
     margin: 0;
@@ -208,7 +205,7 @@ convenio {
 }
 
 .cb-slider-1-6 {
-    margin-top: 92px;
+    margin-top: 137px;
 }
 
 #cb-navigation-1-4 .menuibol {
@@ -255,6 +252,11 @@ convenio {
 
 .descricao-unidbpta {
     height: 207px;
+}
+
+.cb-navigation4 .top-bar {
+    background: #1368a9;
+    height: 40px;
 }
 
 .cb-navigation4 .navbar .navbar-nav > li {
@@ -546,4 +548,119 @@ section .section-title {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+
+.cb-content-1-20{
+    background-color: #eeeeee;
+}
+
+.testeira{
+    background-color: #1368a9;
+    z-index: 10;
+    height: 50px;
+    color: white;
+}
+.header-info {
+    font-size: 13px;
+    color: #fff;
+}
+.social-links.-default {
+    padding-top: 9px;
+    float: left;
+}
+.header-info>.text {
+    padding: 7px 0 0 0;
+    margin: 0;
+    float: left;
+    
+}
+
+.header-info>.text >a{
+  
+    color: white;
+}
+.list{
+    list-style: none;
+}
+
+
+.nav-item{
+    margin-left: 20px;
+}
+.submenu-link {
+    padding: 5px 19px;
+    -webkit-transition: .2s background ease-in-out;
+    transition: .2s background ease-in-out;
+}
+.submenu-link, .submenu-text {
+    font-size: 13px;
+    display: block;
+    color: #fff;
+}
+ul{
+list-style-type: none;
+}
+
+.top-nav {
+    float: right;
+}
+.top-nav>.list {
+    background-color: #5c8db1;
+    padding: 0;
+    margin: 0;
+    float: right;
+    display: table;
+}
+
+.top-item {
+    height: 50px;
+    display: table-cell;
+}
+.top-item>.link {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    -webkit-transition: .2s background ease-in-out;
+    transition: .2s background ease-in-out;
+}
+
+
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.meumegamenu{
+    height: 50px;
+    background-color: #b7d3e9;
 }
